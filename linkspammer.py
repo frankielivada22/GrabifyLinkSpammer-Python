@@ -36,7 +36,7 @@ while loop > 0:
 		'https': 'https://'+proxy,
 	}
 	print(proxies)
-	#response = requests.get(url, headers=headers, proxies=proxies)
+	response = requests.get(url, headers=headers, proxies=proxies)
 	print("Went to", url)
 	print(url, "= True", "Looped:", loop, "times", "Used proxie:", proxy) #DEBUG LINE
 	loop = loop - 1
